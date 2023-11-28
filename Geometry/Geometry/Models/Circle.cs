@@ -6,7 +6,6 @@ namespace Geometry.Models
     {
         public double Radius { get; }
 
-
         /// <exception cref="ArgumentException">The radius of the circle is incorrect.</exception>
         public Circle(double radius)
         {
